@@ -12,6 +12,7 @@ public class ChuckConfiguration {
 
     @Bean
     public ChuckNorrisQuotes chuckNorrisQuotes(){
+        System.out.println("In the ChuckConfiguration");
         return new ChuckNorrisQuotes();
     }
 
