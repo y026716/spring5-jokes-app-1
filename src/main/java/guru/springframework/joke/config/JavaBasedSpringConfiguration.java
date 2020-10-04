@@ -7,12 +7,12 @@ import org.springframework.context.annotation.Configuration;
 /**
  * Created by jt on 5/25/17.
  */
-@Configuration
-public class ChuckConfiguration {
+//@Configuration
+public class JavaBasedSpringConfiguration {
 
-    @Bean
+//    @Bean
     public ChuckNorrisQuotes chuckNorrisQuotes(){
-        System.out.println("In the ChuckConfiguration");
+        System.out.println("In the JavaBasedSpringConfiguration");
         return new ChuckNorrisQuotes();
     }
 
